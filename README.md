@@ -7,6 +7,7 @@ If you just want to use the effect once, use `typeTo()`. It can be used as follo
 
 ```javascript
 $('h3').typeTo("New Text");
+$('input#text').typeTo("New Text");
 ```
 
 This will do a one-time transition.
