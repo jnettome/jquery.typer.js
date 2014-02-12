@@ -77,7 +77,7 @@ String.prototype.rightChars = function(n){
       return;
     }
 
-    var method = $e[0].tagName.match(/INPUT|TEXTAREA/) ? "val" : "text"
+    var method = $e[0].tagName.match(/INPUT|TEXTAREA/) ? 'val' : 'text';
     $e[method](oldLeft + text.charAt(0) + oldRight);
 
     $e.data('oldLeft', oldLeft + text.charAt(0));
